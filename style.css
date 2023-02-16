@@ -1,3 +1,94 @@
-.container{
-  display: block;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,700&display=swap');
+
+/*  */
+body{
+  margin: 0;
+  padding: 0;
 }
+.container{
+  width: 80%;
+  margin: auto;
+
+}
+.main-header{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 40px;
+  padding: 20px 0;
+}
+.main-menu nav ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ 
+}
+.main-menu ul li a{
+  text-decoration: none;
+  font-size: 13px;
+}
+.log{
+  justify-self: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.log a{
+  text-decoration: none;
+}
+.btn{
+  justify-self: right ;
+}
+.btn a{
+  text-decoration: none;
+  background-color: navy;
+  color: white;
+  padding: 5px 30px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+/*  */
+/*  */
+.tex{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 60px;
+}
+.header2{
+  width: 80%;
+  margin: auto;
+}
+.tex1{
+width: 500px;
+margin-left: 40px;
+}
+.tex1 p{
+  font-size: 13px;
+  width: 400px;
+}
+.tex2{
+  justify-self: right;
+}
+.tex2 p{
+  font-size: 10px;
+  width: 400px;
+}
+.link{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  padding-top: 70px;
+}
+.link2 a{
+  text-decoration: none;
+  background-color:navy;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+}
+.link3 a{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/*  */
