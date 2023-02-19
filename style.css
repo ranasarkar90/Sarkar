@@ -3,7 +3,7 @@
 /*  */
 
 body{
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   margin: 0;
   padding: 0;
 }
@@ -43,6 +43,7 @@ body{
 }
 .log a{
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 .btn{
   justify-self: right ;
@@ -66,6 +67,7 @@ body{
 }
 .tex2 h1{
   font-size: 50px;
+  font-family: 'Roboto', sans-serif;
 
 }
 .tex2  p{
@@ -103,6 +105,7 @@ body{
   padding-top: 70px;
 }
 .top-left h2{
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: navy;
 }
@@ -134,6 +137,7 @@ body{
 }
 .top-tex-right h2{
 font-size: 30px;
+font-family: 'Roboto', sans-serif;
 }
 .top-tex-right p{
   font-size: 12px;
@@ -157,7 +161,7 @@ font-size: 30px;
 }
 .top-tex6 h2{
   font-size: 30px;
-
+  font-family: 'Roboto', sans-serif;
 }
 .top-tex6 p{
   position: relative;
@@ -172,11 +176,13 @@ font-size: 30px;
  font-size: 50px;
  padding-top: 30px;
  color: navy;
+ font-family: 'Roboto', sans-serif;
 
 }
 .top-tex6 h4{
   font-size: 15px;
   margin-top: -30px;
+
 
 }
 .top-tex6 h3{
@@ -184,48 +190,73 @@ font-size: 30px;
   padding-top: 20px;
   color: rgb(105, 101, 101);
 }
-.top-tex6 h5{
+.top-tex6 h5 a{
 background-color: navy;
 color: white;
 width: 100px;
-margin-left: 540px;
 padding: 6px 30px;
 border-radius: 10px;
+text-decoration: none;
 }
 
 .top-logo-bcg{
 
 
 }
-.landin{
+.top-right-logo{
   background-image: url(./img/86de1d31-1026-4d23-8032-52820cc6c3ae.jpg);
 }
-.company{
+.landin{
+  /* width: 80%; */
+}
+.date{
   font-size: 10px;
 }
-.company-logo{
+.top-landing{
  font-size: 20px;
+ font-family: 'Roboto', sans-serif;
 }
-.company-link{
+.top-linkar{
   background-color: navy;
   color: white;
   font-size: 12px;
   padding: 8px 15px;
   margin-top: 20px;
+;
 }
-
 .landin ul{
 display: grid;
 grid-template-columns: repeat(3,1fr);
-grid-column-gap: 250px;
+grid-column-gap: 100px;
+padding-top: 50px;
+/* justify-content: right; */
+/* margin-left: -40px; */
 }
 .landin ul li{
   list-style: none;
-
 }
 .landin ul li a{
   text-decoration: none;
+}
+.top-menu-left{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-column-gap: 400px;
+}
+.main-menu2 ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  list-style: none;
+  grid-column-gap: 20px;
+  font-size: 13px;
+}
+.main-menu2 ul li a{
+  text-decoration: none;
 
+}
+.font-awesome span i{
+  margin: 10px;
+  /* padding-top: 20px; */
 }
 
 /*  */
